@@ -1,0 +1,55 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "oi tchau",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "falou"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": [
+            "começar de novo"
+          ]
+        },
+        {
+          "name": "Historico",
+          "slots": [],
+          "samples": [
+            "historico"
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": [
+            "mudar",
+            "qualquer coisa",
+            "outro"
+          ]
+        },
+        {
+          "name": "bater_ponto",
+          "slots": [],
+          "samples": [
+            "bater",
+            "ponto",
+            "bater ponto"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "13"
+}

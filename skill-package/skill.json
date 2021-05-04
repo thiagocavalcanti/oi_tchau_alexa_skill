@@ -1,0 +1,42 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "pt-BR": {
+          "summary": "Skill para obter histórico e bater o ponto",
+          "examplePhrases": [
+            "Alexa abra oi tchau",
+            "historico",
+            "bater ponto"
+          ],
+          "keywords": [],
+          "name": "Oitchau automatização de ponto",
+          "description": "Essa skill foi desenvolvida para a obter o histórico e bater o ponto para a \"Oi Tchau\" de forma não oficial.",
+          "smallIconUri": "file://assets/images/pt-BR_smallIconUri.png",
+          "largeIconUri": "file://assets/images/pt-BR_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "ORGANIZERS_AND_ASSISTANTS",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+       "endpoint": {
+          "sourceDir": "lambda/custom",
+          "uri": "ask-custom-fact-default"
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "locales": {
+        "pt-BR": {}
+      }
+    }
+  }
+}
