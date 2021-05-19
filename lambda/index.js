@@ -150,7 +150,7 @@ const ErrorHandler = {
         return true;
     },
     handle(handlerInput, error) {
-        const errorOutput = "Rapaz o négocio deu ruim. Tenta de novo aí";
+        const errorOutput = "Rapaz o negócio deu ruim. Tenta de novo aí";
         console.log(`~~~~ Error handled: ${JSON.stringify(error)}`);
 
         return handlerInput.responseBuilder
